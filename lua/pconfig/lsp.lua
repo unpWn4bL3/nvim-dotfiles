@@ -21,3 +21,6 @@ require('lspconfig')['sumneko_lua'].setup {
 		},
 	},
 }
+--require('lspconfig')['pyright'].setup {
+--	on_attach = require('lsp-format').on_attach,
+--}

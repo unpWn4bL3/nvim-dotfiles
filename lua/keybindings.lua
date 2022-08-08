@@ -11,3 +11,5 @@ nmap('<A-e>', ':NvimTreeToggle<CR>')
 -- bufferline配置tab切换
 nmap('<C-h>', ':BufferLineCyclePrev<CR>')
 nmap('<C-l>', ':BufferLineCycleNext<CR>')
+-- Ctrl-s保存文件
+nmap('<C-s>', ':w<CR>')
