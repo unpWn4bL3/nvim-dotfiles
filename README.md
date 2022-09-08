@@ -6,3 +6,4 @@ Using
 - *lsp-format.nvim* to format code
 - *nvim-tree* as file explorer
 - *bufferline.nvim* and *lualine.nvim*
+- *telescope.nvim* for fzf integration

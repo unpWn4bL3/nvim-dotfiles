@@ -11,3 +11,7 @@ nmap('<A-e>', ':NvimTreeToggle<CR>')
 -- bufferline配置tab切换
 nmap('<C-h>', ':BufferLineCyclePrev<CR>')
 nmap('<C-l>', ':BufferLineCycleNext<CR>')
+nmap('ff',':Telescope find_files<CR>')
+nmap('fg',':Telescope live_grep<CR>')
+nmap('fb',':Telescope buffers<CR>')
+nmap('fh',':Telescope help_tags<CR>')
