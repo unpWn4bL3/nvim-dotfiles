@@ -7,7 +7,7 @@ local nmap = function(lhs, rhs, ...)
 end
 
 -- nvim-treep配置快捷键
-nmap('<A-e>', ':NvimTreeToggle<CR>')
+nmap('<Space>e', ':NvimTreeToggle<CR>')
 -- bufferline配置tab切换
 nmap('<C-h>', ':BufferLineCyclePrev<CR>')
 nmap('<C-l>', ':BufferLineCycleNext<CR>')
