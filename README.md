@@ -7,3 +7,4 @@ Using
 - *nvim-tree* as file explorer
 - *bufferline.nvim* and *lualine.nvim*
 - *telescope.nvim* for fzf integration
+- *nvim-treesitter* for highlighting

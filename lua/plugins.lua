@@ -12,6 +12,12 @@ return require('packer').startup(function(use)
 	-- nvim-builtin lsp code formatting
 	use 'lukas-reineke/lsp-format.nvim'
 
+	-- nvim-treesitter for highlighting
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
+
 	-- telescope, for fzf integration
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.0',
