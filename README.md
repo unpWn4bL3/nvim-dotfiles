@@ -9,3 +9,4 @@ Using
 - *telescope.nvim* for fzf integration
 - *nvim-treesitter* for highlighting
 - *symbols-outline.nvim* for structure view
+- *lspsaga.nvim* to rice lsp thihngs

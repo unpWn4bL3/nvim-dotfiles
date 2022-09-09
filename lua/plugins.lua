@@ -11,6 +11,11 @@ return require('packer').startup(function(use)
 	use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 	-- nvim-builtin lsp code formatting
 	use 'lukas-reineke/lsp-format.nvim'
+	--
+	use {
+		'glepnir/lspsaga.nvim',
+		branch = 'main'
+	}
 
 	-- symbols-outline.nvim symbols tree
 	use 'simrat39/symbols-outline.nvim'
