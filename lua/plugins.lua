@@ -12,6 +12,9 @@ return require('packer').startup(function(use)
 	-- nvim-builtin lsp code formatting
 	use 'lukas-reineke/lsp-format.nvim'
 
+	-- symbols-outline.nvim symbols tree
+	use 'simrat39/symbols-outline.nvim'
+
 	-- nvim-treesitter for highlighting
 	use {
 		'nvim-treesitter/nvim-treesitter',
