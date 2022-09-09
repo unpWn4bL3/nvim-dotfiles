@@ -40,6 +40,13 @@ return require('packer').startup(function(use)
 		},
 		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
+	-- startup
+	use {
+		'goolord/alpha-nvim',
+		config = function()
+			require('alpha').setup(require('alpha.themes.dashboard').config)
+		end
+	}
 	-- buffer line
 	use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons' }
 	-- Lualine
