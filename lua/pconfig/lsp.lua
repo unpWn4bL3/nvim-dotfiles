@@ -1,6 +1,9 @@
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 require('lspconfig')['sumneko_lua'].setup {
+	flags = {
+		debounce_text_changes = 100,
+	},
 	on_attach = require('lsp-format').on_attach,
 	settings = {
 		Lua = {
@@ -24,3 +27,6 @@ require('lspconfig')['sumneko_lua'].setup {
 	},
 	capabilities = capabilities,
 }
+require('lspconfig').clangd.setup {}
+require('lspconfig').tsserver.setup {}
+require('lspconfig').pyright.setup {}
