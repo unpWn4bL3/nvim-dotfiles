@@ -30,3 +30,4 @@ require('lspconfig')['sumneko_lua'].setup {
 require('lspconfig').clangd.setup {}
 require('lspconfig').tsserver.setup {}
 require('lspconfig').pyright.setup {}
+require('lspconfig').gopls.setup {}

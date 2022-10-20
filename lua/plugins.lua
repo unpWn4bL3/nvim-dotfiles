@@ -25,6 +25,15 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-vsnip'
 	use 'hrsh7th/vim-vsnip'
 
+
+	-- auto close
+	use {
+		'windwp/nvim-autopairs',
+		config = function()
+			require('nvim-autopairs').setup {}
+		end
+	}
+
 	-- symbols-outline.nvim symbols tree
 	use 'simrat39/symbols-outline.nvim'
 
