@@ -57,6 +57,14 @@ return require('packer').startup(function(use)
 		},
 		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
+	-- rose pine themes
+	use({
+		'rose-pine/neovim',
+		as = 'rose-pine',
+		config = function()
+			vim.cmd('colorscheme rose-pine')
+		end
+	})
 	-- startup
 	use {
 		'goolord/alpha-nvim',
